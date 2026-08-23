@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+data/raw/*.db
+data/raw/*.sqlite
+data/raw/*.sqlite3
+
+# Generated datasets
+data/processed/*.csv
+data/processed/*.parquet
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
